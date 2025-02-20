@@ -22,9 +22,27 @@ img{
     </style>
 </head>
 <body>
-<img src="hhhhhhhhhhh\images\fe42b5483cf9f36b2c2ffd6e80599e0.jpg" alt="">
+<img src="./images/fe42b5483cf9f36b2c2ffd6e80599e0.jpg" alt="">
     <h1>丹丹可以成为我的恋人吗？</h1>
-    <button class="one">可以</button>
-    <button class="two">不要</button>
+    <button class="one" id="m1Button">可以</button>
+    <button class="two" id="myButton">不要</button>
 </body>
+<script>
+   var button = document.getElementById('myButton');
+ 
+ // 添加点击事件监听器
+ button.addEventListener('click', function() {
+   // 弹出提示框
+   alert('不许！');
+ });
+ var button = document.getElementById('m1Button');
+ 
+ // 添加点击事件监听器
+ button.addEventListener('click', function() {
+   // 弹出提示框
+   alert('嘻嘻！');
+ });
+
+
+</script>
 </html>
