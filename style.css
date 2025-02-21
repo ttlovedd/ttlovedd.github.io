@@ -1,5 +1,7 @@
 body {
-    background-color: yellow; /* 浅粉色 */
+background-image: url('./images/55555.jpg');
+background-size: cover;
+background-position: right;
     text-align: center;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,21 +21,22 @@ body {
     width: 100%; /* 图片宽度自适应容器 */
     max-width: 200px; /* 最大宽度限制 */
     transition: all 0.3s ease;
+margin-bottom: 20px;
 }
 
 h1 {
     font-size: 5vw; /* 字体大小根据视口宽度变化 */
-    color: #68495b;
-    margin: 20px 0; /* 增加上下间距 */
+    color: yellow;
+    margin: 20px 0 30px 0; /* 增加上下间距 */
 }
 
 button {
     font-size: 4vw; /* 字体大小根据视口宽度变化 */
-    padding: 10px 20px;
+    padding: 20px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    margin: 10px;
+    margin: 20px;
     transition: all 0.3s ease;
 }
 
@@ -54,7 +57,10 @@ button {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: gray; /* 粉色 */
+    background-image: url('./images/55555.jpg');
+    background-size: cover;
+    background-position: left;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
