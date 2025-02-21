@@ -1,48 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>丹丹专属</title>
-    <style>
-.one{
-    width: 100px;
-    height: 50px;
-    background-color: red;
-}
-.two{
-    width: 100px;
-    height: 50px;
-    background-color: blue;
-}
-img{
-    width: 100px;
-    height: 100px;
-}
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="E:/1/333/0.jpg">
 </head>
 <body>
-<img src="./images/fe42b5483cf9f36b2c2ffd6e80599e0.jpg" alt="">
-    <h1>丹丹可以成为我的恋人吗？</h1>
-    <button class="one" id="m1Button">可以</button>
-    <button class="two" id="myButton">不要</button>
+    <div class="container">
+        <img id="mainImage" src="./images/0.jpg" alt="加载出错">
+        <h1 id="question">丹丹你可以成为我的恋人吗？</h1>
+        <div class="buttons">
+            <button id="yes">可以</button>
+            <button id="no">不要</button>
+        </div>
+    </div>
+
+   
 </body>
-<script>
-   var button = document.getElementById('myButton');
- 
- // 添加点击事件监听器
- button.addEventListener('click', function() {
-   // 弹出提示框
-   alert('不许！');
- });
- var button = document.getElementById('m1Button');
- 
- // 添加点击事件监听器
- button.addEventListener('click', function() {
-   // 弹出提示框
-   alert('嘻嘻！');
- });
-
-
-</script>
 </html>
